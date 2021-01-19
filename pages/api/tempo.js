@@ -1,0 +1,4 @@
+function tempo (tempo, resoinse){
+    
+
+}
