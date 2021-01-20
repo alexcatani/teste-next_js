@@ -1,12 +1,12 @@
 import Link from 'next/link';
 
-function Home() {
+function Sobre() {
     return (
         <div>
-            <h1>Home </h1>
+            <h1>Sobre </h1>
             
-            <Link  href="/sobre">
-                <a>Acessar página Sobre</a>
+            <Link  href="/">
+                <a>Acessar página Home</a>
             </Link>
         </div>
     )
@@ -14,4 +14,4 @@ function Home() {
 
 
 // Como a pagina está utilizando o node é só exportar o componente que cria a pagina
-export default Home
+export default Sobre
